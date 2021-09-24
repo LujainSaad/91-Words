@@ -1,0 +1,155 @@
+.icons {
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  //height: 100vh;
+
+  @media only screen and (max-width: 700px) {
+    padding: 1rem;
+  }
+
+  &_1 {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(rgb(186, 201, 191), 0.8),
+        rgba(rgb(236, 242, 238), 0.8)
+      ),
+      url("../images/bg.jpeg");
+  }
+  &_2 {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(#7ed56f, 0.8),
+        rgba(#28b485, 0.8)
+      ),
+      url("../images/bg2.jpeg");
+  }
+  &_3 {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(rgb(186, 201, 191), 0.8),
+        rgba(rgb(236, 242, 238), 0.8)
+      ),
+      url("../images/bg3.jpeg");
+  }
+
+  background-size: cover;
+  background-position: center;
+
+  &_icon {
+    height: 7rem;
+    width: 7rem;
+    //flex: 0 0 10%;
+    border-radius: 50%;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    font-size: 4rem;
+    border: 5px solid #55c57a;
+
+    @media only screen and (max-width: 700px) {
+      height: 4rem;
+      width: 4rem;
+    }
+    @media only screen and (max-width: 700px) {
+      height: 5rem;
+      width: 5rem;
+    }
+
+    &-1 {
+      background-image: url(../images/icon-1.jpeg);
+    }
+    &-2 {
+      background-image: url(../images/icon-2.jpeg);
+    }
+    &-3 {
+      background-image: url(../images/icon-3.jpeg);
+    }
+    &-4 {
+      background-image: url(../images/icon-4.jpeg);
+    }
+    &-5 {
+      background-image: url(../images/icon-5.jpeg);
+    }
+    &-6 {
+      background-image: url(../images/icon-6.jpeg);
+    }
+    &-7 {
+      background-image: url(../images/icon-7.jpeg);
+    }
+    &-8 {
+      background-image: url(../images/icon-8.jpeg);
+    }
+    &-9 {
+      background-image: url(../images/icon-9.jpeg);
+    }
+    &-10 {
+      background-image: url(../images/icon-10.jpeg);
+    }
+    &-11 {
+      background-image: url(../images/icon-11.jpeg);
+    }
+    &-12 {
+      background-image: url(../images/icon-12.jpeg);
+    }
+    &-13 {
+      background-image: url(../images/icon-13.jpeg);
+    }
+    &-14 {
+      background-image: url(../images/icon-14.jpeg);
+    }
+    &-15 {
+      background-image: url(../images/icon-15.jpeg);
+    }
+    &-16 {
+      background-image: url(../images/icon-16.jpeg);
+    }
+    &-17 {
+      background-image: url(../images/icon-17.jpeg);
+    }
+    &-18 {
+      background-image: url(../images/icon-18.jpeg);
+    }
+    &-19 {
+      background-image: url(../images/icon-19.jpeg);
+    }
+    &-20 {
+      background-image: url(../images/icon-20.jpeg);
+    }
+    &-21 {
+      background-image: url(../images/icon-21.jpeg);
+    }
+    &-22 {
+      background-image: url(../images/icon-22.jpeg);
+    }
+    &-23 {
+      background-image: url(../images/icon-23.jpeg);
+    }
+    &-24 {
+      background-image: url(../images/icon-24.jpeg);
+    }
+    &-25 {
+      background-image: url(../images/icon-25.jpeg);
+    }
+    &-26 {
+      background-image: url(../images/icon-26.jpeg);
+    }
+    &-27 {
+      background-image: url(../images/icon-27.jpeg);
+    }
+    &-28 {
+      background-image: url(../images/icon-28.jpeg);
+    }
+    &-29 {
+      background-image: url(../images/icon-29.jpeg);
+    }
+    &-30 {
+      background-image: url(../images/icon-30.jpeg);
+    }
+    &-31 {
+      background-image: url(../images/icon-13.jpeg);
+    }
+  }
+}

@@ -1,0 +1,324 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  overflow-x: hidden; }
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../images/saudi-flag.jpeg");
+  background-size: cover;
+  background-position: top;
+  position: relative; }
+  .header_logo-box {
+    position: absolute;
+    top: 4rem;
+    right: 4rem; }
+  .header_logo {
+    height: 3.5rem;
+    border-radius: 50%;
+    opacity: 0.6; }
+  .header_text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem; }
+  @media only screen and (max-width: 900px) {
+    .heading-primary {
+      margin-bottom: 3rem; } }
+  .heading-primary--main {
+    font-family: "Aref Ruqaa", serif;
+    display: block;
+    margin-top: 3rem;
+    font-size: 4.5rem;
+    font-weight: 400;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
+    @media only screen and (max-width: 700px) {
+      .heading-primary--main {
+        font-size: 3rem; } }
+  .heading-primary--sub {
+    font-family: "Harmattan", sans-serif;
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    animation: moveInRight 1s ease-out; }
+    @media only screen and (max-width: 700px) {
+      .heading-primary--sub {
+        font-size: 1.5rem; } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translatex(-10rem); }
+  80% {
+    transform: translatex(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translatex(10rem); }
+  80% {
+    transform: translatex(-1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInButtom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+.icons {
+  padding: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-size: cover;
+  background-position: center; }
+  @media only screen and (max-width: 700px) {
+    .icons {
+      padding: 1rem; } }
+  .icons_1 {
+    background-image: linear-gradient(to right bottom, rgba(186, 201, 191, 0.8), rgba(236, 242, 238, 0.8)), url("../images/bg.jpeg"); }
+  .icons_2 {
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../images/bg2.jpeg"); }
+  .icons_3 {
+    background-image: linear-gradient(to right bottom, rgba(186, 201, 191, 0.8), rgba(236, 242, 238, 0.8)), url("../images/bg3.jpeg"); }
+  .icons_icon {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    font-size: 4rem;
+    border: 5px solid #55c57a; }
+    @media only screen and (max-width: 700px) {
+      .icons_icon {
+        height: 4rem;
+        width: 4rem; } }
+    @media only screen and (max-width: 700px) {
+      .icons_icon {
+        height: 5rem;
+        width: 5rem; } }
+    .icons_icon-1 {
+      background-image: url(../images/icon-1.jpeg); }
+    .icons_icon-2 {
+      background-image: url(../images/icon-2.jpeg); }
+    .icons_icon-3 {
+      background-image: url(../images/icon-3.jpeg); }
+    .icons_icon-4 {
+      background-image: url(../images/icon-4.jpeg); }
+    .icons_icon-5 {
+      background-image: url(../images/icon-5.jpeg); }
+    .icons_icon-6 {
+      background-image: url(../images/icon-6.jpeg); }
+    .icons_icon-7 {
+      background-image: url(../images/icon-7.jpeg); }
+    .icons_icon-8 {
+      background-image: url(../images/icon-8.jpeg); }
+    .icons_icon-9 {
+      background-image: url(../images/icon-9.jpeg); }
+    .icons_icon-10 {
+      background-image: url(../images/icon-10.jpeg); }
+    .icons_icon-11 {
+      background-image: url(../images/icon-11.jpeg); }
+    .icons_icon-12 {
+      background-image: url(../images/icon-12.jpeg); }
+    .icons_icon-13 {
+      background-image: url(../images/icon-13.jpeg); }
+    .icons_icon-14 {
+      background-image: url(../images/icon-14.jpeg); }
+    .icons_icon-15 {
+      background-image: url(../images/icon-15.jpeg); }
+    .icons_icon-16 {
+      background-image: url(../images/icon-16.jpeg); }
+    .icons_icon-17 {
+      background-image: url(../images/icon-17.jpeg); }
+    .icons_icon-18 {
+      background-image: url(../images/icon-18.jpeg); }
+    .icons_icon-19 {
+      background-image: url(../images/icon-19.jpeg); }
+    .icons_icon-20 {
+      background-image: url(../images/icon-20.jpeg); }
+    .icons_icon-21 {
+      background-image: url(../images/icon-21.jpeg); }
+    .icons_icon-22 {
+      background-image: url(../images/icon-22.jpeg); }
+    .icons_icon-23 {
+      background-image: url(../images/icon-23.jpeg); }
+    .icons_icon-24 {
+      background-image: url(../images/icon-24.jpeg); }
+    .icons_icon-25 {
+      background-image: url(../images/icon-25.jpeg); }
+    .icons_icon-26 {
+      background-image: url(../images/icon-26.jpeg); }
+    .icons_icon-27 {
+      background-image: url(../images/icon-27.jpeg); }
+    .icons_icon-28 {
+      background-image: url(../images/icon-28.jpeg); }
+    .icons_icon-29 {
+      background-image: url(../images/icon-29.jpeg); }
+    .icons_icon-30 {
+      background-image: url(../images/icon-30.jpeg); }
+    .icons_icon-31 {
+      background-image: url(../images/icon-13.jpeg); }
+
+.btn, .btn:link, .btn:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: 10rem;
+  position: relative;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer; }
+  @media only screen and (max-width: 700px) {
+    .btn, .btn:link, .btn:visited {
+      font-size: 1rem;
+      padding: 1rem 2rem; } }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active .btn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--white {
+  background-color: white;
+  color: #777; }
+  .btn--white::after {
+    background-color: white; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s; }
+
+.btn--animated {
+  animation: moveInButtom 0.5s ease-out 0.5s;
+  animation-fill-mode: backwards; }
+
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(85, 197, 122, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  text-align: right; }
+  .popup_content {
+    width: 60%;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: all 0.5s 0.2s;
+    border-radius: 1rem;
+    font-size: 1.5rem; }
+    @media only screen and (max-width: 700px) {
+      .popup_content {
+        font-size: 1rem; } }
+  .popup_line {
+    margin-bottom: 1.5rem; }
+  .popup_title {
+    padding: 0.5rem 1rem;
+    background-color: #7ed56f;
+    font-size: 1.5rem;
+    border-radius: 2rem; }
+    @media only screen and (max-width: 700px) {
+      .popup_title {
+        font-size: 1rem; } }
+  .popup_text {
+    font-size: 1.5rem;
+    line-height: 2;
+    display: inline; }
+    @media only screen and (max-width: 700px) {
+      .popup_text {
+        font-size: 1rem; } }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
+  .popup:target .popup_content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1); }
+  .popup_close:link, .popup_close:visited {
+    color: white;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+    line-height: 1; }
+  .popup_close:hover {
+    color: #55c57a; }
+
+.footer {
+  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../images/saudi-flag.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Harmattan", sans-serif;
+  font-size: 1.5rem; }
+  .footer__attribution {
+    color: #333; }
+    .footer__attribution_link:link, .footer__attribution_link:visited {
+      color: #12301c;
+      text-decoration: underline;
+      display: inline-block;
+      transition: all 0.2s; }
+    .footer__attribution_link:hover, .footer__attribution_link:active {
+      color: #454545;
+      border-radius: 2rem;
+      padding: 0 0.5rem;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+      transform: rotate(5deg) scale(1.3); }
