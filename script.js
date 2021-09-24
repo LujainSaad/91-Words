@@ -109,7 +109,7 @@ const posts = {
     major: `علوم الحاسب `,
   },
   20: {
-    name: ``,
+    name: ` `,
     text: ``,
     major: ``,
   },
