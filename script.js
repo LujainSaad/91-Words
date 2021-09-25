@@ -109,24 +109,24 @@ const posts = {
     major: `علوم الحاسب `,
   },
   20: {
-    name: ` `,
-    text: ``,
-    major: ``,
+    name: `لمياء سعد`,
+    text: `كل عام و الشعب السعودي في أمان الله في كنفه و في رعايته🤍💚 `,
+    major: `اللغة الانجليزية`,
   },
   21: {
-    name: ``,
-    text: ``,
-    major: ``,
+    name: `أسماء محمد الفيفي`,
+    text: `دمت ياوطني آمنًا، شامخًا، حرًا، أبيًا 🤍`,
+    major: `علوم الحاسب`,
   },
   22: {
-    name: ``,
-    text: ``,
-    major: ``,
+    name: `فيصل عسيري`,
+    text: `يوم وطني سعيد على ممكلتنا الغالية حكومة وشعبا `,
+    major: `نظم المعلومات`,
   },
   23: {
-    name: ``,
-    text: ``,
-    major: ``,
+    name: `أمجاد سالم سعيد الشهراني`,
+    text: `وطن لا نحميه لا نستحق العيش فيه 🌿💚🤍`,
+    major: `نظم معلومات `,
   },
   24: {
     name: ``,
@@ -491,13 +491,11 @@ for (let i = 0; i < n; i++) {
     });
 }
 
-document
-  .querySelectorAll(".popup_close")
-  [i].addEventListener("click", function () {
-    Name.innerHTML = "";
-    Tx.innerHTML = "";
-    Major.innerHTML = "";
-  });
+document.querySelector(".popup_close").addEventListener("click", function () {
+  Name.innerHTML = "";
+  Tx.innerHTML = "";
+  Major.innerHTML = "";
+});
 /*
 for (let i = 1; i <= 30; i++) {
   let img = url(`images/icon-${i+1}.jpeg`);

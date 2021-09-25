@@ -275,6 +275,11 @@ body {
   background-image: url(../images/icon-13.jpeg);
 }
 
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
