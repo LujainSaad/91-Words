@@ -480,6 +480,7 @@ let n = document.querySelectorAll(".icons_icon").length;
 let Name = document.querySelector(".popup_name");
 let Tx = document.querySelector(".popup_text");
 let Major = document.querySelector(".popup_major");
+let close = document.querySelector(".popup_close");
 
 for (let i = 0; i < n; i++) {
   document
@@ -488,10 +489,14 @@ for (let i = 0; i < n; i++) {
       Name.innerHTML = "    " + posts[i + 1].name;
       Tx.innerHTML = "    " + posts[i + 1].text;
       Major.innerHTML = "    " + posts[i + 1].major;
+
+      if (i + 1 < 31) close.href = "#icons";
+      else if (i + 1 < 61) close.href = "#icons2";
+      else close.href = "#icons3";
     });
 }
 
-document.querySelector(".popup_close").addEventListener("click", function () {
+close.addEventListener("click", function () {
   Name.innerHTML = "";
   Tx.innerHTML = "";
   Major.innerHTML = "";
