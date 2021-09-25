@@ -275,7 +275,7 @@ body {
   background-image: url(../images/icon-13.jpeg);
 }
 
-.disabled {
+.disabled1 {
   pointer-events: none;
   cursor: default;
 }
