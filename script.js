@@ -192,9 +192,9 @@ const posts = {
     major: ``,
   },
   36: {
-    name: ``,
-    text: ``,
-    major: ``,
+    name: `Manar`,
+    text: `years of love, giving and pride 💚.`,
+    major: `Radiologist`,
   },
   37: {
     name: ``,
