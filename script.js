@@ -197,9 +197,9 @@ const posts = {
     major: `Radiologist`,
   },
   37: {
-    name: ``,
-    text: ``,
-    major: ``,
+    name: `رهف`,
+    text: `هي لنا دار🤍🤍 `,
+    major: `معلوماتية صحيه `,
   },
   38: {
     name: ``,
